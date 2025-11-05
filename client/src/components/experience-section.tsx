@@ -1,4 +1,3 @@
-import { useState, useEffect } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { useScrollAnimation, useStaggeredScrollAnimation } from "@/hooks/useScrollAnimation";
 import { useCounterAnimation } from "@/hooks/use-counter-animation";
@@ -69,18 +68,6 @@ export default function ExperienceSection({ variation = null }: ExperienceSectio
     triggerOnce: true, 
     delay: isMobile ? 0 : 120 
   });
-
-  // Fallback: ensure all items become visible after section is in view
-  const [forceVisible, setForceVisible] = useState(false);
-  useEffect(() => {
-    if (sectionAnimation.isVisible) {
-      // Wait a bit for animations, then force visibility of any missed items
-      const timer = setTimeout(() => {
-        setForceVisible(true);
-      }, 1000);
-      return () => clearTimeout(timer);
-    }
-  }, [sectionAnimation.isVisible]);
 
   // Base experiences array
   const baseExperiences: Experience[] = [
@@ -240,7 +227,7 @@ export default function ExperienceSection({ variation = null }: ExperienceSectio
               <div 
                 key={index} 
                 id={`experience-${slugify(exp.company)}-${slugify(exp.title)}`} 
-                className={`relative scroll-scale-in ${isMobile ? '' : `scroll-stagger-${index + 1}`} ${visibleItems.has(index) || isMobile || forceVisible ? 'visible' : ''}`}
+                className={`relative scroll-scale-in ${isMobile ? '' : `scroll-stagger-${index + 1}`} ${visibleItems.has(index) || isMobile ? 'visible' : ''}`}
                 data-testid={`experience-${index}`}
                 style={isMobile ? { 
                   opacity: 1, 
