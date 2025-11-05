@@ -331,7 +331,7 @@ export default function UploadResumeDashboard({ variation = null }: UploadResume
 
   if (isLoading) {
     return (
-      <div className="min-h-screen flex items-center justify-center" style={{ backgroundColor: "#f5f5f7" }}>
+      <div className="min-h-screen bg-background flex items-center justify-center">
         <div className="text-center">
           <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900 mx-auto mb-4"></div>
           <p className="text-gray-600">Loading...</p>
@@ -345,7 +345,7 @@ export default function UploadResumeDashboard({ variation = null }: UploadResume
   }
 
   return (
-    <div className="min-h-screen" style={{ backgroundColor: "#f8fafc" }}>
+    <div className="min-h-screen bg-muted">
       <Navigation />
       <div className="max-w-4xl mx-auto px-4 py-8">
         {/* Header */}

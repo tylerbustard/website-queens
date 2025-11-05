@@ -485,3 +485,35 @@ Browserslist: browsers data (caniuse-lite) is 13 months old. Please run:
 9:41:48 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
 9:42:35 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
 9:42:35 PM [vite] hmr update /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:43:05 PM [vite] hmr update /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:43:05 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:44:24 PM [vite] page reload src/pages/resume-variation-2.tsx
+9:44:24 PM [vite] page reload src/pages/resume-variation-3.tsx
+9:44:24 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:44:24 PM [vite] hmr update /src/pages/home.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:44:24 PM [vite] page reload src/components/ProtectedRoute.tsx
+9:44:24 PM [vite] hmr update /src/components/hero-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:44:24 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:44:24 PM [vite] hmr update /src/pages/upload-resume-dashboard.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:44:24 PM [vite] hmr update /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:44:24 PM [vite] page reload src/pages/resume-variation-1.tsx
+9:44:24 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:44:25 PM [vite] hmr update /src/components/hero-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:44:25 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:44:25 PM [vite] hmr update /src/pages/upload-resume-dashboard.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:44:29 PM [express] GET /api/videos 304 in 2ms :: []
+9:44:37 PM [express] GET /api/videos 304 in 1ms :: []
+9:45:01 PM [vite] page reload src/components/ProtectedRoute.tsx
+9:45:01 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:45:03 PM [express] GET /api/videos 304 in 6ms :: []
+9:45:03 PM [vite] page reload src/pages/resume-variation-2.tsx
+9:45:03 PM [vite] hmr update /src/components/hero-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:45:03 PM [vite] hmr update /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:45:03 PM [vite] page reload src/pages/resume-variation-1.tsx
+9:45:04 PM [express] GET /api/videos 304 in 1ms :: []
+9:45:05 PM [vite] page reload src/pages/resume-variation-3.tsx
+9:45:05 PM [vite] hmr update /src/pages/home.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:45:05 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:45:06 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:45:06 PM [vite] hmr update /src/pages/upload-resume-dashboard.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:45:06 PM [express] GET /api/videos 304 in 1ms :: []
