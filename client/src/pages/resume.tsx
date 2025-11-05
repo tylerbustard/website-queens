@@ -435,73 +435,53 @@ export default function Resume() {
                       </div>
                     </div>
 
-                    {/* Irving Oil Marketing Intern */}
-                    <div
-                      id={`experience-${slugify('Irving Oil Limited')}-${slugify('Marketing Intern')}`}
-                      className="bg-white rounded-xl border border-gray-200 p-3 shadow-sm"
-                    >
-                      <div className="flex gap-3 items-center">
-                        <div className="flex-shrink-0">
-                          <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center border border-red-200">
-                            <img src={irvingLogo} alt="Irving Oil" className="w-7 h-7 object-contain" />
-                          </div>
-                        </div>
-                        <div className="flex-1">
-                          <div className="flex justify-between items-start">
-                            <div>
-                              <h5 className="text-sm font-bold text-gray-900">Marketing Intern</h5>
-                              <p className="text-sm text-blue-600 font-semibold">Irving Oil Limited</p>
-                              <p className="text-sm text-gray-600">Saint John, New Brunswick</p>
+                    {/* Irving Oil and Grant Thornton - Side by Side */}
+                    <div className="grid grid-cols-2 gap-3">
+                      {/* Irving Oil Marketing Intern */}
+                      <div
+                        id={`experience-${slugify('Irving Oil Limited')}-${slugify('Marketing Intern')}`}
+                        className="bg-white rounded-xl border border-gray-200 p-3 shadow-sm"
+                      >
+                        <div className="flex gap-3 items-center">
+                          <div className="flex-shrink-0">
+                            <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center border border-red-200">
+                              <img src={irvingLogo} alt="Irving Oil" className="w-7 h-7 object-contain" />
                             </div>
-                            <span className="inline-flex items-center rounded-full bg-gray-100 text-gray-600 text-xs font-medium px-2.5 py-1 shadow-sm">2018</span>
+                          </div>
+                          <div className="flex-1">
+                            <div className="flex justify-between items-start">
+                              <div>
+                                <h5 className="text-sm font-bold text-gray-900">Marketing Intern</h5>
+                                <p className="text-sm text-blue-600 font-semibold">Irving Oil Limited</p>
+                                <p className="text-sm text-gray-600">Saint John, NB</p>
+                              </div>
+                              <span className="inline-flex items-center rounded-full bg-gray-100 text-gray-600 text-xs font-medium px-2.5 py-1 shadow-sm">2018</span>
+                            </div>
                           </div>
                         </div>
                       </div>
-                    </div>
 
-                    {/* Grant Thornton Tax Return Intern */}
-                    <div
-                      id={`experience-${slugify('Grant Thornton LLP')}-${slugify('Tax Return Intern')}`}
-                      className="bg-white rounded-xl border border-gray-200 p-3 shadow-sm"
-                    >
-                      <div className="flex gap-3 items-center">
-                        <div className="flex-shrink-0">
-                          <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center border border-purple-200">
-                            <img src={grantThorntonLogo} alt="Grant Thornton" className="w-7 h-7 object-contain" />
-                          </div>
-                        </div>
-                        <div className="flex-1">
-                          <div className="flex justify-between items-start">
-                            <div>
-                              <h5 className="text-sm font-bold text-gray-900">Tax Return Intern</h5>
-                              <p className="text-sm text-blue-600 font-semibold">Grant Thornton LLP</p>
-                              <p className="text-sm text-gray-600">Saint John, New Brunswick</p>
+                      {/* Grant Thornton Tax Return Intern */}
+                      <div
+                        id={`experience-${slugify('Grant Thornton LLP')}-${slugify('Tax Return Intern')}`}
+                        className="bg-white rounded-xl border border-gray-200 p-3 shadow-sm"
+                      >
+                        <div className="flex gap-3 items-center">
+                          <div className="flex-shrink-0">
+                            <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center border border-purple-200">
+                              <img src={grantThorntonLogo} alt="Grant Thornton" className="w-7 h-7 object-contain" />
                             </div>
-                            <span className="inline-flex items-center rounded-full bg-gray-100 text-gray-600 text-xs font-medium px-2.5 py-1 shadow-sm">2018</span>
                           </div>
-                        </div>
-                      </div>
-                      <div className="mt-3 pl-16">
-                        <h6 className="text-sm font-bold text-gray-900 mb-2">Key Achievements</h6>
-                        <ul className="space-y-2">
-                          <li className="text-sm text-gray-700 flex items-start">
-                            <span className="text-blue-500 mr-2">•</span>
-                            <span>Streamlined client financial data, boosting accuracy by 10% ensuring timely submission of 100+ tax returns</span>
-                          </li>
-                          <li className="text-sm text-gray-700 flex items-start">
-                            <span className="text-blue-500 mr-2">•</span>
-                            <span>Improved tax return preparation processes, cutting filing errors by 15%</span>
-                          </li>
-                        </ul>
-                      </div>
-                      <div className="mt-2 pl-16">
-                        <h6 className="text-sm font-bold text-gray-900 mb-2">Core Competencies</h6>
-                        <div className="flex flex-wrap gap-2">
-                          {['Tax Preparation', 'Financial Analysis', 'Data Management', 'Client Service'].map((skill) => (
-                            <span key={skill} className="resume-skill-chip inline-block px-2.5 py-1 rounded-lg bg-blue-50 text-blue-600 border border-blue-200 text-xs font-semibold">
-                              {skill}
-                            </span>
-                          ))}
+                          <div className="flex-1">
+                            <div className="flex justify-between items-start">
+                              <div>
+                                <h5 className="text-sm font-bold text-gray-900">Tax Return Intern</h5>
+                                <p className="text-sm text-blue-600 font-semibold">Grant Thornton LLP</p>
+                                <p className="text-sm text-gray-600">Saint John, NB</p>
+                              </div>
+                              <span className="inline-flex items-center rounded-full bg-gray-100 text-gray-600 text-xs font-medium px-2.5 py-1 shadow-sm">2018</span>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
