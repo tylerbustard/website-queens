@@ -1,0 +1,487 @@
+Warning: No OpenAI API key found in environment variables
+7:50:04 PM [express] serving on http://0.0.0.0:5002
+7:50:04 PM [express] Tyler Bustard user ready for PDF uploads
+Browserslist: browsers data (caniuse-lite) is 13 months old. Please run:
+  npx update-browserslist-db@latest
+  Why you should do it regularly: https://github.com/browserslist/update-db#readme
+7:50:05 PM [express] GET /api/videos 304 in 0ms :: []
+7:51:49 PM [express] GET /api/videos 304 in 0ms :: []
+8:02:23 PM [express] GET /api/resumes/employer 200 in 0ms :: []
+8:05:40 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:05:40 PM [express] GET /api/resumes/employer 304 in 2ms :: []
+8:06:00 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:06:21 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:06:30 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:06:44 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:06:44 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:06:44 PM [express] GET /api/resumes/employer 304 in 2ms :: []
+8:08:38 PM [express] GET /api/videos 304 in 0ms :: []
+8:08:47 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:08:55 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:09:00 PM [express] GET /api/resumes/employer 304 in 1ms :: []
+8:09:10 PM [express] GET /api/videos 304 in 0ms :: []
+8:09:11 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:09:23 PM [express] GET /api/resumes/employer 304 in 1ms :: []
+8:09:27 PM [express] GET /api/resumes/employer 304 in 1ms :: []
+8:09:34 PM [express] GET /api/resumes/employer 304 in 0ms :: []
+8:09:49 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:10:13 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:10:32 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:11:05 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:11:05 PM [express] GET /api/resumes/employer 304 in 0ms :: []
+8:12:01 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:12:07 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:12:16 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:12:21 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:12:21 PM [express] GET /api/resumes/employer 304 in 1ms :: []
+8:12:46 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:13:19 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:13:19 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:13:51 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:13:51 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:13:52 PM [express] GET /api/resumes/employer 304 in 1ms :: []
+8:14:47 PM [express] GET /api/videos 304 in 1ms :: []
+8:15:11 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:15:18 PM [express] GET /api/resumes/employer 304 in 0ms :: []
+8:15:21 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:15:45 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:16:08 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:17:47 PM [express] GET /api/videos 304 in 0ms :: []
+8:19:34 PM [express] GET /api/resumes/employer 304 in 1ms :: []
+8:20:34 PM [express] GET /api/videos 304 in 1ms :: []
+8:21:16 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:21:16 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:21:37 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:21:47 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:21:56 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:22:21 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:24:18 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:24:18 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:24:55 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:24:55 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:26:11 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:26:11 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:26:25 PM [vite] page reload src/pages/resume-variation-2.tsx
+8:26:25 PM [express] GET /api/videos 304 in 1ms :: []
+8:26:27 PM [vite] page reload src/pages/resume-variation-3.tsx
+8:26:28 PM [express] GET /api/videos 304 in 1ms :: []
+8:26:34 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:26:34 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:26:35 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:26:36 PM [vite] page reload src/pages/resume-variation-2.tsx
+8:26:36 PM [vite] page reload src/pages/resume-variation-3.tsx
+8:26:36 PM [vite] page reload src/pages/resume-variation-3.tsx
+8:26:36 PM [vite] page reload src/pages/resume-variation-2.tsx
+8:26:37 PM [express] GET /api/videos 200 in 0ms :: []
+8:26:41 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:26:41 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:26:41 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:26:41 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:26:45 PM [vite] page reload src/pages/resume-variation-3.tsx
+8:26:45 PM [vite] page reload src/pages/resume-variation-2.tsx
+8:26:46 PM [express] GET /api/videos 304 in 0ms :: []
+8:27:18 PM [vite] page reload src/pages/resume-variation-2.tsx
+8:27:18 PM [vite] page reload src/pages/resume-variation-3.tsx
+8:27:18 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:27:18 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:27:20 PM [express] GET /api/videos 304 in 1ms :: []
+8:27:37 PM [vite] page reload src/pages/resume-variation-2.tsx
+8:27:37 PM [vite] page reload src/pages/resume-variation-3.tsx
+8:27:37 PM [express] GET /api/videos 304 in 0ms :: []
+8:28:07 PM [vite] page reload src/pages/resume-variation-2.tsx
+8:28:07 PM [vite] page reload src/pages/resume-variation-3.tsx
+8:28:07 PM [express] GET /api/videos 304 in 1ms :: []
+8:29:19 PM [vite] page reload src/pages/resume-variation-2.tsx
+8:29:19 PM [vite] page reload src/pages/resume-variation-3.tsx
+8:29:20 PM [express] GET /api/videos 304 in 1ms :: []
+8:29:42 PM [vite] page reload src/pages/resume-variation-2.tsx
+8:29:42 PM [vite] page reload src/pages/resume-variation-3.tsx
+8:29:43 PM [express] GET /api/videos 304 in 1ms :: []
+8:30:13 PM [vite] page reload src/pages/resume-variation-2.tsx
+8:30:13 PM [vite] page reload src/pages/resume-variation-3.tsx
+8:30:14 PM [express] GET /api/videos 304 in 0ms :: []
+8:30:26 PM [vite] page reload src/pages/resume-variation-2.tsx
+8:30:26 PM [vite] page reload src/pages/resume-variation-3.tsx
+8:30:27 PM [express] GET /api/videos 304 in 0ms :: []
+8:30:29 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:30:29 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:30:29 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:30:29 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:31:11 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:31:44 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:31:44 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:31:44 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:31:44 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:31:59 PM [vite] page reload src/pages/resume-variation-3.tsx
+8:31:59 PM [vite] page reload src/pages/resume-variation-2.tsx
+8:31:59 PM [vite] page reload src/pages/resume-variation-3.tsx
+8:31:59 PM [vite] page reload src/pages/resume-variation-2.tsx
+8:32:00 PM [express] GET /api/videos 304 in 0ms :: []
+8:32:18 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:32:18 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:32:35 PM [vite] page reload src/pages/resume-variation-2.tsx
+8:32:35 PM [vite] page reload src/pages/resume-variation-3.tsx
+8:32:36 PM [express] GET /api/videos 200 in 1ms :: []
+8:32:56 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:32:56 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:33:06 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:33:06 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:33:36 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:33:36 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:33:50 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:33:50 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:34:10 PM [vite] page reload src/pages/resume-variation-2.tsx
+8:34:10 PM [vite] page reload src/pages/resume-variation-3.tsx
+8:34:10 PM [express] GET /api/videos 304 in 0ms :: []
+8:34:15 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:34:15 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:34:42 PM [vite] page reload src/pages/resume-variation-3.tsx
+8:34:42 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:34:42 PM [vite] page reload src/pages/resume-variation-2.tsx
+8:34:42 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:34:43 PM [express] GET /api/videos 200 in 1ms :: []
+8:35:47 PM [vite] page reload src/pages/resume-variation-3.tsx
+8:35:47 PM [vite] page reload src/pages/resume-variation-2.tsx
+8:35:47 PM [express] GET /api/videos 304 in 1ms :: []
+8:36:13 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:36:13 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:36:13 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:36:13 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:36:18 PM [vite] page reload src/pages/resume-variation-2.tsx
+8:36:19 PM [vite] page reload src/pages/resume-variation-3.tsx
+8:36:19 PM [express] GET /api/videos 304 in 0ms :: []
+8:36:24 PM [vite] page reload src/pages/resume-variation-2.tsx
+8:36:24 PM [vite] page reload src/pages/resume-variation-3.tsx
+8:36:24 PM [express] GET /api/videos 304 in 0ms :: []
+8:36:50 PM [vite] page reload src/pages/resume-variation-2.tsx
+8:36:50 PM [vite] page reload src/pages/resume-variation-3.tsx
+8:36:50 PM [express] GET /api/videos 200 in 0ms :: []
+8:36:51 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:36:51 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:36:51 PM [vite] hmr update /src/App.tsx?v=TQqWOhI_MvLReWdE2PHWp, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:36:51 PM [vite] hmr update /src/pages/home.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/App.tsx?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx
+8:37:25 PM [vite] page reload src/pages/resume-variation-2.tsx
+8:37:25 PM [vite] page reload src/pages/resume-variation-3.tsx
+8:37:26 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:37:26 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:37:26 PM [express] GET /api/videos 200 in 2ms :: []
+8:37:31 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:37:31 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:37:31 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:37:35 PM [vite] page reload src/pages/resume-variation-3.tsx
+8:37:35 PM [vite] page reload src/pages/resume-variation-2.tsx
+8:37:35 PM [vite] page reload src/pages/resume-variation-3.tsx
+8:37:35 PM [vite] page reload src/pages/resume-variation-2.tsx
+8:37:36 PM [express] GET /api/videos 304 in 0ms :: []
+8:37:37 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx
+8:37:37 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+8:37:37 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+8:37:48 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:38:04 PM [vite] page reload src/pages/resume-variation-2.tsx
+8:38:04 PM [vite] page reload src/pages/resume-variation-3.tsx
+8:38:04 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx
+8:38:04 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:38:04 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:38:04 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+8:38:04 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+8:38:05 PM [express] GET /api/videos 304 in 2ms :: []
+8:38:07 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:38:20 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:38:35 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:38:38 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:38:57 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:39:15 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:39:24 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:39:42 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:39:42 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:40:05 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:40:31 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:40:34 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:40:34 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:40:34 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:40:34 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx
+8:40:34 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:40:34 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:40:36 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+8:40:36 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+8:40:36 PM [express] GET /api/videos 304 in 1ms :: []
+8:40:42 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:41:10 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:41:10 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:41:10 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+8:41:10 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:41:10 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:41:11 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+8:41:11 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+8:41:29 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:41:54 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:42:29 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:42:59 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:43:24 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:43:27 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:43:54 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:44:08 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:44:14 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:44:38 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:44:38 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:45:35 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+8:45:35 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:45:35 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:45:35 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:45:35 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:45:35 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:45:35 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:45:38 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+8:45:38 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+8:45:38 PM [express] GET /api/videos 304 in 3ms :: []
+8:46:18 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:46:18 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:46:18 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+8:46:18 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:46:18 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:46:19 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+8:46:19 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+8:47:04 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+8:47:04 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:47:04 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:47:04 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:47:04 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:47:04 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:47:04 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:47:06 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+8:47:06 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+8:47:07 PM [express] GET /api/videos 304 in 1ms :: []
+8:47:27 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+8:47:27 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+8:47:27 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+8:47:43 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:47:44 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:47:44 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:47:44 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:48:22 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+8:48:22 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:48:22 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:48:22 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:48:22 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:48:22 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:48:22 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:48:26 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+8:48:26 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+8:48:27 PM [express] GET /api/videos 304 in 0ms :: []
+8:48:51 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:48:51 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:48:51 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+8:48:52 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:48:52 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:48:52 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+8:48:52 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+8:52:18 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+8:52:18 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:52:18 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:52:18 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:52:18 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:52:18 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+8:52:20 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+8:52:20 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+8:52:21 PM [express] GET /api/videos 304 in 49ms :: []
+8:52:49 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:52:49 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:52:49 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+8:52:50 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:52:50 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:52:51 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+8:52:51 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+8:54:42 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+8:54:42 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:54:42 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:54:42 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:54:42 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:54:44 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+8:54:44 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+8:54:45 PM [express] GET /api/videos 304 in 1ms :: []
+8:55:18 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+8:55:18 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:55:18 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:55:18 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:55:18 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:55:18 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+8:55:18 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:55:18 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:55:18 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:55:18 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:55:21 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+8:55:21 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+8:55:56 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:55:57 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:55:57 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+8:55:57 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:55:57 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:55:57 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+8:55:57 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+8:55:57 PM [express] GET /api/videos 304 in 1ms :: []
+8:56:56 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+8:56:56 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:56:56 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:56:56 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:56:56 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:56:56 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:56:56 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:56:56 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:56:57 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:56:57 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+8:57:00 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+8:57:00 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+8:57:02 PM [express] GET /api/videos 304 in 11ms :: []
+8:59:56 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:59:56 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+8:59:57 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:59:57 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:59:57 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+8:59:58 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+8:59:58 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+8:59:59 PM [express] GET /api/videos 304 in 5ms :: []
+9:00:30 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:00:30 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:00:30 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+9:00:31 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:00:31 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:00:32 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+9:00:32 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+9:03:14 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+9:03:14 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:03:14 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:03:14 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:03:14 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:03:17 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+9:03:17 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+9:03:17 PM [express] GET /api/videos 304 in 2ms :: []
+9:03:54 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+9:03:55 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:03:55 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+9:03:55 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+9:03:56 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:03:56 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:03:56 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:04:17 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+9:04:17 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:04:17 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:04:17 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:04:17 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:04:19 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+9:04:19 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+9:04:20 PM [express] GET /api/videos 304 in 0ms :: []
+9:04:53 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:04:53 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:04:54 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+9:04:54 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:04:54 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:04:55 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+9:04:55 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+9:06:18 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+9:06:18 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:06:18 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:06:18 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:06:18 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:06:18 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:06:18 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+9:06:18 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:06:18 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:06:18 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:06:23 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+9:06:23 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+9:06:24 PM [express] GET /api/videos 304 in 10ms :: []
+9:06:54 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:06:54 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:06:54 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+9:06:54 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:06:54 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:06:57 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+9:06:57 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+9:07:37 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+9:07:37 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:07:37 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:07:37 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:07:37 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:07:37 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+9:07:37 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:07:37 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:07:37 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:07:37 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:07:40 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+9:07:40 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+9:07:40 PM [express] GET /api/videos 304 in 43ms :: []
+9:08:08 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:08:08 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:08:08 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+9:08:08 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:08:08 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:08:09 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+9:08:09 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+9:12:26 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:12:26 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+9:12:26 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:12:26 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:12:26 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:12:26 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:12:26 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:12:29 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+9:12:29 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+9:12:30 PM [express] GET /api/videos 304 in 4ms :: []
+9:12:54 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:12:54 PM [vite] hmr update /src/components/experience-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:12:55 PM [vite] hmr update /src/components/ui/tooltip.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/components/ui/button.tsx, /src/components/ui/label.tsx, /src/components/ui/input.tsx, /src/components/ui/card.tsx, /src/components/ui/toast.tsx, /src/components/ui/textarea.tsx, /src/components/experience-section.tsx, /src/components/skills-section.tsx, /src/pages/resume.tsx, /src/components/navigation.tsx
+9:12:55 PM [vite] hmr update /src/components/navigation.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:12:56 PM [vite] hmr invalidate /src/components/ui/button.tsx Could not Fast Refresh ("buttonVariants" export is incompatible). Learn more at https://github.com/vitejs/vite-plugin-react/tree/main/packages/plugin-react#consistent-components-exports
+9:12:56 PM [vite] hmr update /src/pages/resume-upload-signin.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp, /src/pages/upload-resume-dashboard.tsx, /src/components/hero-section.tsx
+9:12:57 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:22:42 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:22:49 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:22:55 PM [vite] page reload src/pages/resume-variation-1.tsx
+9:22:55 PM [express] GET /api/videos 304 in 1ms :: []
+9:23:00 PM [vite] page reload src/pages/resume-variation-2.tsx
+9:23:00 PM [express] GET /api/videos 304 in 1ms :: []
+9:23:04 PM [vite] page reload src/pages/resume-variation-3.tsx
+9:23:04 PM [express] GET /api/videos 304 in 1ms :: []
+9:23:20 PM [vite] page reload src/pages/resume-variation-2.tsx
+9:23:20 PM [vite] page reload src/pages/resume-variation-1.tsx
+9:23:23 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:23:23 PM [express] GET /api/videos 304 in 1ms :: []
+9:23:38 PM [vite] page reload src/pages/resume-variation-3.tsx
+9:23:39 PM [express] GET /api/videos 200 in 0ms :: []
+9:23:49 PM [vite] page reload src/pages/resume-variation-1.tsx
+9:23:49 PM [vite] page reload src/pages/resume-variation-2.tsx
+9:23:49 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:23:49 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:23:49 PM [vite] page reload src/pages/resume-variation-3.tsx
+9:23:51 PM [express] GET /api/videos 304 in 0ms :: []
+9:24:16 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:24:27 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:24:27 PM [vite] page reload src/pages/resume-variation-2.tsx
+9:24:27 PM [vite] page reload src/pages/resume-variation-1.tsx
+9:24:27 PM [vite] page reload src/pages/resume-variation-3.tsx
+9:24:27 PM [express] GET /api/videos 304 in 1ms :: []
+9:25:10 PM [vite] page reload src/pages/resume-variation-1.tsx
+9:25:10 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:25:10 PM [vite] page reload src/pages/resume-variation-3.tsx
+9:25:10 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:25:10 PM [vite] page reload src/pages/resume-variation-2.tsx
+9:25:11 PM [express] GET /api/videos 200 in 1ms :: []
+9:25:38 PM [vite] hmr update /src/components/skills-section.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:25:38 PM [vite] page reload src/pages/resume-variation-2.tsx
+9:25:38 PM [vite] page reload src/pages/resume-variation-1.tsx
+9:25:38 PM [vite] page reload src/pages/resume-variation-3.tsx
+9:25:38 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:25:39 PM [express] GET /api/videos 304 in 1ms :: []
+9:35:45 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:35:59 PM [vite] hmr update /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:36:11 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:36:26 PM [vite] hmr update /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:38:50 PM [vite] hmr update /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:38:50 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:39:26 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:39:26 PM [vite] hmr update /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:41:17 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:41:17 PM [vite] hmr update /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:41:48 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:42:35 PM [vite] hmr update /src/pages/resume.tsx, /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
+9:42:35 PM [vite] hmr update /src/index.css?v=TQqWOhI_MvLReWdE2PHWp
