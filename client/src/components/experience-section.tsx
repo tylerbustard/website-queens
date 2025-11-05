@@ -1,3 +1,4 @@
+import { useState, useEffect } from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { useScrollAnimation, useStaggeredScrollAnimation } from "@/hooks/useScrollAnimation";
 import { useCounterAnimation } from "@/hooks/use-counter-animation";
@@ -62,13 +63,6 @@ export default function ExperienceSection({ variation = null }: ExperienceSectio
     delay: isMobile ? 0 : 80 
   });
   
-  const { ref: experiencesRef, visibleItems } = useStaggeredScrollAnimation(variation === 'profile' ? 8 : 8, { 
-    threshold: 0.05, 
-    rootMargin: '0px 0px 25% 0px',
-    triggerOnce: true, 
-    delay: isMobile ? 0 : 120 
-  });
-
   // Base experiences array
   const baseExperiences: Experience[] = [
     {
@@ -193,6 +187,24 @@ export default function ExperienceSection({ variation = null }: ExperienceSectio
   // Always include 73 Strings and Fiscal.ai first on the primary page (and profile)
   const experiences: Experience[] = [seventyThreeStringsExperience, fiscalAiExperience, ...baseExperiences];
 
+  const { ref: experiencesRef, visibleItems } = useStaggeredScrollAnimation(experiences.length, { 
+    threshold: 0.05, 
+    rootMargin: '0px 0px 25% 0px',
+    triggerOnce: true, 
+    delay: isMobile ? 0 : 120 
+  });
+
+  const [forceVisible, setForceVisible] = useState(false);
+
+  useEffect(() => {
+    if (!sectionAnimation.isVisible) {
+      return;
+    }
+
+    const timer = setTimeout(() => setForceVisible(true), 1000);
+    return () => clearTimeout(timer);
+  }, [sectionAnimation.isVisible]);
+
   return (
     <section 
       ref={sectionAnimation.ref}
@@ -227,7 +239,7 @@ export default function ExperienceSection({ variation = null }: ExperienceSectio
               <div 
                 key={index} 
                 id={`experience-${slugify(exp.company)}-${slugify(exp.title)}`} 
-                className={`relative scroll-scale-in ${isMobile ? '' : `scroll-stagger-${index + 1}`} ${visibleItems.has(index) || isMobile ? 'visible' : ''}`}
+                className={`relative scroll-scale-in ${isMobile ? '' : `scroll-stagger-${index + 1}`} ${visibleItems.has(index) || isMobile || forceVisible ? 'visible' : ''}`}
                 data-testid={`experience-${index}`}
                 style={isMobile ? { 
                   opacity: 1, 
