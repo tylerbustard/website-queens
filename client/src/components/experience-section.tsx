@@ -49,22 +49,24 @@ interface ExperienceSectionProps {
 }
 
 export default function ExperienceSection({ variation = null }: ExperienceSectionProps = {}) {
-  const sectionAnimation = useScrollAnimation({ threshold: 0.15, triggerOnce: true });
+  const sectionAnimation = useScrollAnimation({ threshold: 0.05, rootMargin: '0px 0px 25% 0px', triggerOnce: true });
   
   // Mobile fallback - ensure content is visible on small screens
   const isMobile = typeof window !== 'undefined' && window.innerWidth < 640;
   
   // Reduce delays significantly on mobile for faster appearance
   const headerAnimation = useScrollAnimation({ 
-    threshold: 0.25, 
+    threshold: 0.1, 
+    rootMargin: '0px 0px 25% 0px',
     triggerOnce: true, 
-    delay: isMobile ? 0 : 100 
+    delay: isMobile ? 0 : 80 
   });
   
-  const { ref: experiencesRef, visibleItems } = useStaggeredScrollAnimation(variation === 'profile' ? 8 : 7, { 
-    threshold: 0.1, 
+  const { ref: experiencesRef, visibleItems } = useStaggeredScrollAnimation(variation === 'profile' ? 8 : 8, { 
+    threshold: 0.05, 
+    rootMargin: '0px 0px 25% 0px',
     triggerOnce: true, 
-    delay: isMobile ? 0 : 150 
+    delay: isMobile ? 0 : 120 
   });
 
   // Base experiences array
