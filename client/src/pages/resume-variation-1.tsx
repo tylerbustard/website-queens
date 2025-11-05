@@ -29,6 +29,15 @@ export default function ResumeVariation1({ variation = null }: ResumeVariation1P
   const [showScrollToTop, setShowScrollToTop] = useState(false);
 
   useEffect(() => {
+    const originalTitle = document.title;
+    document.title = "Tyler Bustard - Resume";
+
+    return () => {
+      document.title = originalTitle;
+    };
+  }, []);
+
+  useEffect(() => {
     let timeoutId: NodeJS.Timeout | null = null;
     let lastKnownScrollY = 0;
     

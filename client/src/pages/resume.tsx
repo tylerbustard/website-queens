@@ -40,6 +40,15 @@ export default function Resume() {
   });
 
   useEffect(() => {
+    const originalTitle = document.title;
+    document.title = "Tyler Bustard - Resume";
+
+    return () => {
+      document.title = originalTitle;
+    };
+  }, []);
+
+  useEffect(() => {
     let timeoutId: NodeJS.Timeout | null = null;
     let lastKnownScrollY = 0;
     
