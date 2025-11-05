@@ -264,7 +264,7 @@ export default function Resume() {
                   </ul>
                   <div className="mt-2 pl-16 flex flex-wrap gap-2">
                     {['Monitoring Controls', 'Reconciliation', 'NAV Validation', 'SQL', 'Excel'].map((skill) => (
-                      <span key={skill} className="inline-block px-2.5 py-1 rounded-lg bg-blue-50 text-blue-600 border border-blue-200 text-xs font-semibold">
+                      <span key={skill} className="resume-skill-chip inline-block px-2.5 py-1 rounded-lg bg-blue-50 text-blue-600 border border-blue-200 text-xs font-semibold">
                         {skill}
                       </span>
                     ))}
@@ -305,7 +305,7 @@ export default function Resume() {
                   </ul>
                   <div className="mt-2 pl-16 flex flex-wrap gap-2">
                     {['Financial Analysis', 'AI Integration', 'Data Analytics', 'Python', 'SQL'].map((skill) => (
-                      <span key={skill} className="inline-block px-2.5 py-1 rounded-lg bg-blue-50 text-blue-600 border border-blue-200 text-xs font-semibold">
+                      <span key={skill} className="resume-skill-chip inline-block px-2.5 py-1 rounded-lg bg-blue-50 text-blue-600 border border-blue-200 text-xs font-semibold">
                         {skill}
                       </span>
                     ))}
@@ -346,7 +346,7 @@ export default function Resume() {
                   </ul>
                   <div className="mt-2 pl-16 flex flex-wrap gap-2">
                     {['Portfolio Management', 'Client Relations', 'Financial Analysis', 'Excel'].map((skill) => (
-                      <span key={skill} className="inline-block px-2.5 py-1 rounded-lg bg-blue-50 text-blue-600 border border-blue-200 text-xs font-semibold">
+                      <span key={skill} className="resume-skill-chip inline-block px-2.5 py-1 rounded-lg bg-blue-50 text-blue-600 border border-blue-200 text-xs font-semibold">
                         {skill}
                       </span>
                     ))}
@@ -435,53 +435,73 @@ export default function Resume() {
                       </div>
                     </div>
 
-                    {/* Irving Oil and Grant Thornton - Side by Side */}
-                    <div className="grid grid-cols-2 gap-3">
-                      {/* Irving Oil Marketing Intern */}
-                      <div
-                        id={`experience-${slugify('Irving Oil Limited')}-${slugify('Marketing Intern')}`}
-                        className="bg-white rounded-xl border border-gray-200 p-3 shadow-sm"
-                      >
-                        <div className="flex gap-3 items-center">
-                          <div className="flex-shrink-0">
-                            <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center border border-red-200">
-                              <img src={irvingLogo} alt="Irving Oil" className="w-7 h-7 object-contain" />
-                            </div>
+                    {/* Irving Oil Marketing Intern */}
+                    <div
+                      id={`experience-${slugify('Irving Oil Limited')}-${slugify('Marketing Intern')}`}
+                      className="bg-white rounded-xl border border-gray-200 p-3 shadow-sm"
+                    >
+                      <div className="flex gap-3 items-center">
+                        <div className="flex-shrink-0">
+                          <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center border border-red-200">
+                            <img src={irvingLogo} alt="Irving Oil" className="w-7 h-7 object-contain" />
                           </div>
-                          <div className="flex-1">
-                            <div className="flex justify-between items-start">
-                              <div>
-                                <h5 className="text-sm font-bold text-gray-900">Marketing Intern</h5>
-                                <p className="text-sm text-blue-600 font-semibold">Irving Oil Limited</p>
-                                <p className="text-sm text-gray-600">Saint John, NB</p>
-                              </div>
-                              <span className="inline-flex items-center rounded-full bg-gray-100 text-gray-600 text-xs font-medium px-2.5 py-1 shadow-sm">2018</span>
+                        </div>
+                        <div className="flex-1">
+                          <div className="flex justify-between items-start">
+                            <div>
+                              <h5 className="text-sm font-bold text-gray-900">Marketing Intern</h5>
+                              <p className="text-sm text-blue-600 font-semibold">Irving Oil Limited</p>
+                              <p className="text-sm text-gray-600">Saint John, New Brunswick</p>
                             </div>
+                            <span className="inline-flex items-center rounded-full bg-gray-100 text-gray-600 text-xs font-medium px-2.5 py-1 shadow-sm">2018</span>
                           </div>
                         </div>
                       </div>
+                    </div>
 
-                      {/* Grant Thornton Tax Return Intern */}
-                      <div
-                        id={`experience-${slugify('Grant Thornton LLP')}-${slugify('Tax Return Intern')}`}
-                        className="bg-white rounded-xl border border-gray-200 p-3 shadow-sm"
-                      >
-                        <div className="flex gap-3 items-center">
-                          <div className="flex-shrink-0">
-                            <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center border border-purple-200">
-                              <img src={grantThorntonLogo} alt="Grant Thornton" className="w-7 h-7 object-contain" />
-                            </div>
+                    {/* Grant Thornton Tax Return Intern */}
+                    <div
+                      id={`experience-${slugify('Grant Thornton LLP')}-${slugify('Tax Return Intern')}`}
+                      className="bg-white rounded-xl border border-gray-200 p-3 shadow-sm"
+                    >
+                      <div className="flex gap-3 items-center">
+                        <div className="flex-shrink-0">
+                          <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center border border-purple-200">
+                            <img src={grantThorntonLogo} alt="Grant Thornton" className="w-7 h-7 object-contain" />
                           </div>
-                          <div className="flex-1">
-                            <div className="flex justify-between items-start">
-                              <div>
-                                <h5 className="text-sm font-bold text-gray-900">Tax Return Intern</h5>
-                                <p className="text-sm text-blue-600 font-semibold">Grant Thornton LLP</p>
-                                <p className="text-sm text-gray-600">Saint John, NB</p>
-                              </div>
-                              <span className="inline-flex items-center rounded-full bg-gray-100 text-gray-600 text-xs font-medium px-2.5 py-1 shadow-sm">2018</span>
+                        </div>
+                        <div className="flex-1">
+                          <div className="flex justify-between items-start">
+                            <div>
+                              <h5 className="text-sm font-bold text-gray-900">Tax Return Intern</h5>
+                              <p className="text-sm text-blue-600 font-semibold">Grant Thornton LLP</p>
+                              <p className="text-sm text-gray-600">Saint John, New Brunswick</p>
                             </div>
+                            <span className="inline-flex items-center rounded-full bg-gray-100 text-gray-600 text-xs font-medium px-2.5 py-1 shadow-sm">2018</span>
                           </div>
+                        </div>
+                      </div>
+                      <div className="mt-3 pl-16">
+                        <h6 className="text-sm font-bold text-gray-900 mb-2">Key Achievements</h6>
+                        <ul className="space-y-2">
+                          <li className="text-sm text-gray-700 flex items-start">
+                            <span className="text-blue-500 mr-2">•</span>
+                            <span>Streamlined client financial data, boosting accuracy by 10% ensuring timely submission of 100+ tax returns</span>
+                          </li>
+                          <li className="text-sm text-gray-700 flex items-start">
+                            <span className="text-blue-500 mr-2">•</span>
+                            <span>Improved tax return preparation processes, cutting filing errors by 15%</span>
+                          </li>
+                        </ul>
+                      </div>
+                      <div className="mt-2 pl-16">
+                        <h6 className="text-sm font-bold text-gray-900 mb-2">Core Competencies</h6>
+                        <div className="flex flex-wrap gap-2">
+                          {['Tax Preparation', 'Financial Analysis', 'Data Management', 'Client Service'].map((skill) => (
+                            <span key={skill} className="resume-skill-chip inline-block px-2.5 py-1 rounded-lg bg-blue-50 text-blue-600 border border-blue-200 text-xs font-semibold">
+                              {skill}
+                            </span>
+                          ))}
                         </div>
                       </div>
                     </div>
@@ -777,6 +797,14 @@ export default function Resume() {
           .border-green-200 { border-color: #bbf7d0 !important; }
           .border-red-200 { border-color: #fecaca !important; }
           .border-purple-200 { border-color: #e9d5ff !important; }
+
+          .resume-skill-chip {
+            background: transparent !important;
+            border: none !important;
+            padding: 0 !important;
+            border-radius: 0 !important;
+            color: #1f2937 !important;
+          }
           
           /* Profile image adjustments */
           img {

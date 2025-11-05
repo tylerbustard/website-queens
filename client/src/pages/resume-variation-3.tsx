@@ -145,7 +145,7 @@ export default function ResumeVariation3({ variation = null }: ResumeVariation3P
                     </h4>
                     <div className="flex flex-wrap gap-1">
                       {['Team Development', 'Mentoring', 'Cross-functional Collaboration', 'Conflict Resolution'].map(skill => (
-                        <span key={skill} className="inline-block px-2 py-1 rounded text-xs font-medium bg-blue-50 text-blue-700 border border-blue-200">
+                        <span key={skill} className="resume-skill-chip inline-block px-2 py-1 rounded text-xs font-medium bg-blue-50 text-blue-700 border border-blue-200">
                           {skill}
                         </span>
                       ))}
@@ -158,7 +158,7 @@ export default function ResumeVariation3({ variation = null }: ResumeVariation3P
                     </h4>
                     <div className="flex flex-wrap gap-1">
                       {['Process Improvement', 'Performance Optimization', 'Change Management', 'Goal Setting'].map(skill => (
-                        <span key={skill} className="inline-block px-2 py-1 rounded text-xs font-medium bg-green-50 text-green-700 border border-green-200">
+                        <span key={skill} className="resume-skill-chip inline-block px-2 py-1 rounded text-xs font-medium bg-green-50 text-green-700 border border-green-200">
                           {skill}
                         </span>
                       ))}
@@ -171,7 +171,7 @@ export default function ResumeVariation3({ variation = null }: ResumeVariation3P
                     </h4>
                     <div className="flex flex-wrap gap-1">
                       {['Relationship Building', 'Stakeholder Management', 'Consultative Selling', 'Service Excellence'].map(skill => (
-                        <span key={skill} className="inline-block px-2 py-1 rounded text-xs font-medium bg-purple-50 text-purple-700 border border-purple-200">
+                        <span key={skill} className="resume-skill-chip inline-block px-2 py-1 rounded text-xs font-medium bg-purple-50 text-purple-700 border border-purple-200">
                           {skill}
                         </span>
                       ))}
@@ -222,7 +222,7 @@ export default function ResumeVariation3({ variation = null }: ResumeVariation3P
                       </ul>
                       <div className="flex flex-wrap gap-2">
                         {['Team Leadership', 'Process Optimization', 'Staff Mentoring', 'Workflow Coordination', 'Standards Development'].map(skill => (
-                          <span key={skill} className="inline-block px-1.5 py-0.5 rounded text-xs font-medium bg-blue-50 text-blue-700 border border-blue-200">
+                          <span key={skill} className="resume-skill-chip inline-block px-1.5 py-0.5 rounded text-xs font-medium bg-blue-50 text-blue-700 border border-blue-200">
                             {skill}
                           </span>
                         ))}
@@ -267,7 +267,7 @@ export default function ResumeVariation3({ variation = null }: ResumeVariation3P
                       </ul>
                       <div className="flex flex-wrap gap-2">
                         {['District Leadership', 'Performance Management', 'Best Practices Development', 'Training & Onboarding', 'Strategic Planning'].map(skill => (
-                          <span key={skill} className="inline-block px-1.5 py-0.5 rounded text-xs font-medium bg-blue-50 text-blue-700 border border-blue-200">
+                          <span key={skill} className="resume-skill-chip inline-block px-1.5 py-0.5 rounded text-xs font-medium bg-blue-50 text-blue-700 border border-blue-200">
                             {skill}
                           </span>
                         ))}
@@ -308,7 +308,7 @@ export default function ResumeVariation3({ variation = null }: ResumeVariation3P
                       </ul>
                       <div className="flex flex-wrap gap-2">
                         {['Campus Leadership', 'Strategic Coordination', 'Retention Strategies', 'Financial Education', 'Program Development'].map(skill => (
-                          <span key={skill} className="inline-block px-1.5 py-0.5 rounded text-xs font-medium bg-blue-50 text-blue-700 border border-blue-200">
+                          <span key={skill} className="resume-skill-chip inline-block px-1.5 py-0.5 rounded text-xs font-medium bg-blue-50 text-blue-700 border border-blue-200">
                             {skill}
                           </span>
                         ))}
@@ -463,6 +463,18 @@ export default function ResumeVariation3({ variation = null }: ResumeVariation3P
           <ChevronUp size={20} />
         </button>
       )}
+
+      <style>{`
+        @media print {
+          .resume-skill-chip {
+            background: transparent !important;
+            border: none !important;
+            padding: 0 !important;
+            border-radius: 0 !important;
+            color: #1f2937 !important;
+          }
+        }
+      `}</style>
     </div>
   );
 }
