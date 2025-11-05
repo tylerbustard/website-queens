@@ -598,7 +598,9 @@
     #experience .scroll-stagger-3,
     #experience .scroll-stagger-4,
     #experience .scroll-stagger-5,
-    #experience .scroll-stagger-6 {
+    #experience .scroll-stagger-6,
+    #experience .scroll-stagger-7,
+    #experience .scroll-stagger-8 {
       transition-delay: 0s !important;
     }
     
