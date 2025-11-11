@@ -309,7 +309,7 @@ export default function ResumeVariation1({ variation = null }: ResumeVariation1P
                         <p className="text-sm text-gray-600">CFA Institute</p>
                       </div>
                     </div>
-                    <span className="text-xs text-gray-600 px-1.5 py-0.5 rounded">2025</span>
+                    <span className="text-xs text-gray-600 px-1.5 py-0.5 rounded">2026</span>
                   </div>
                 </div>
 

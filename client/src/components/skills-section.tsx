@@ -71,7 +71,7 @@ export default function CertificationsSection() {
       icon: FaChartLine,
       color: "bg-blue-500",
       certifications: [
-        { name: "CFA Level I Candidate", year: "2025", institution: "CFA Institute", description: "Comprehensive training in investment analysis, portfolio management, and ethical standards for investment professionals.", highlight: true, logoSrc: cfaLogo },
+        { name: "CFA Level I Candidate", year: "2026", institution: "CFA Institute", description: "Comprehensive training in investment analysis, portfolio management, and ethical standards for investment professionals.", highlight: true, logoSrc: cfaLogo },
         { name: "Discounted Cash Flow Analysis", year: "2024", institution: "Training the Street", description: "Advanced financial modeling techniques for valuation using discounted cash flow methodology and sensitivity analysis.", logoSrc: trainingTheStreetLogo },
         { name: "Financial Planning 1", year: "2023", institution: "Canadian Securities Institute", description: "Foundational principles of personal financial planning including budgeting, insurance, and retirement planning strategies.", logoSrc: csiLogo },
         { name: "Certificate in Financial Services Advice", year: "2022", institution: "Canadian Securities Institute", description: "Professional qualification for providing financial advisory services and investment recommendations to clients.", logoSrc: csiLogo },
