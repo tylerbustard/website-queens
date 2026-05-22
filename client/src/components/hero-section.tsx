@@ -15,12 +15,13 @@ import bloombergLogo from "@assets/bloomberg_1755923720190.png";
 import courseraLogo from "@assets/Coursera_1755937682843.png";
 import queensLogo from "@assets/queens_university_logo.png";
 import unbLogo from "@assets/University_of_New_Brunswick_Logo.svg_1755912478863.png";
+import nccLogo from "@assets/northeast_christian_college_logo.png";
 import wallStreetPrepLogo from "@assets/wall street prep_1755923720193.png";
 import trainingTheStreetLogo from "@assets/trainning the street_1755938972014.png";
 import etsLogo from "@assets/ETS_1755939510188.png";
 import unitedWayLogo from "@assets/United-Way-Logo_1755913265895.png";
 import seventyThreeStringsLogo from "@assets/73_strings_logo.webp";
-import fiscalAiLogo from "@assets/image_1762287154415.png";
+import roiLogo from "@assets/image_1762287154415.png";
 
 export default function HeroSection() {
   const isPageLoaded = useInitialPageAnimation(400);
@@ -216,13 +217,16 @@ export default function HeroSection() {
                  data-testid="card-education">
               <div className="flex items-center gap-4 mb-1">
                 <div className="w-12 h-12 bg-primary/10 group-hover:bg-blue-500/20 rounded-xl flex items-center justify-center relative overflow-visible transition-all duration-300 group-hover:scale-110 group-hover:rotate-3">
-                  {/* Two education logos stacked */}
+                  {/* Education logos stacked */}
                   <div className="flex relative group-hover:space-x-1 transition-all duration-300">
                     <div className="w-6 h-6 bg-white rounded-full border-2 border-white shadow-md flex items-center justify-center relative z-30 group-hover:scale-110 transition-all duration-300 group-hover:shadow-lg">
                       <img src={queensLogo} alt="Queen's University Education" className="w-4 h-4 object-contain" />
                     </div>
                     <div className="w-6 h-6 bg-white rounded-full border-2 border-white shadow-md flex items-center justify-center relative z-20 -ml-2 group-hover:scale-110 transition-all duration-300 group-hover:shadow-lg">
                       <img src={unbLogo} alt="University of New Brunswick Education" className="w-4 h-4 object-contain" />
+                    </div>
+                    <div className="w-6 h-6 bg-white rounded-full border-2 border-white shadow-md flex items-center justify-center relative z-10 -ml-2 group-hover:scale-110 transition-all duration-300 group-hover:shadow-lg">
+                      <img src={nccLogo} alt="Northeast Christian College Education" className="w-5 h-3 object-contain" />
                     </div>
                   </div>
                 </div>
@@ -251,7 +255,7 @@ export default function HeroSection() {
                       <img src={seventyThreeStringsLogo} alt="73 Strings Portfolio Monitoring" className="w-4 h-4 object-contain" />
                     </div>
                     <div className="w-6 h-6 bg-white rounded-full border-2 border-white shadow-md flex items-center justify-center relative z-20 -ml-2 group-hover:scale-110 transition-all duration-300 group-hover:shadow-lg">
-                      <img src={fiscalAiLogo} alt="Fiscal.ai Equity Analyst" className="w-4 h-4 object-contain" />
+                      <img src={roiLogo} alt="ROI Equity Analyst" className="w-4 h-4 object-contain" />
                     </div>
                     <div className="w-6 h-6 bg-white rounded-full border-2 border-white shadow-md flex items-center justify-center relative z-10 -ml-2 group-hover:scale-110 transition-all duration-300 group-hover:shadow-lg">
                       <img src={bmoLogo} alt="BMO Bank of Montreal Financial Services" className="w-4 h-4 object-contain" />

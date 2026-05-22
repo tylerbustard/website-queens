@@ -9,7 +9,7 @@ import rbcLogo from "@assets/RBC-Logo_1755913716813.png";
 import irvingLogo from "@assets/Irving_Oil.svg_1755913265895.png";
 import grantThorntonLogo from "@assets/Grant_Thornton_logo_1755913265895.png";
 import seventyThreeStringsLogo from "@assets/73_strings_logo.webp";
-import fiscalAiLogo from "@assets/image_1762287154415.png";
+import roiLogo from "@assets/image_1762287154415.png";
 
 interface Experience {
   title: string;
@@ -151,13 +151,13 @@ export default function ExperienceSection({ variation = null }: ExperienceSectio
     },
   ];
 
-  // Profile-specific experience for 73 Strings
+  // 73 Strings experience ended May 2026
   const seventyThreeStringsExperience: Experience = {
     title: "Senior Associate, Portfolio Monitoring",
     company: "73 Strings",
     location: "Toronto, Ontario",
-    period: "2025-Present",
-    duration: "Current",
+    period: "Jan 2025 - May 2026",
+    duration: "1 yr 5 mos",
     achievements: [
       "Monitor daily NAV inputs, validate holdings and cash flows; support accurate fund valuations",
       "Review reconciliation workflows, investigate exceptions, and liaise with operations risk and PMs",
@@ -167,10 +167,10 @@ export default function ExperienceSection({ variation = null }: ExperienceSectio
     color: "#0047AB"
   };
 
-  // Profile-specific experience for Fiscal.ai
-  const fiscalAiExperience: Experience = {
+  // Profile-specific experience for ROI
+  const roiExperience: Experience = {
     title: "Equity Analyst",
-    company: "Fiscal.ai",
+    company: "ROI",
     location: "Toronto, Ontario",
     period: "2023-2025",
     duration: "2 years",
@@ -179,13 +179,13 @@ export default function ExperienceSection({ variation = null }: ExperienceSectio
       "Collaborated with product and engineering to implement AI-driven data features, boosting adoption by 12%",
     ],
     technologies: ["Financial Analysis", "AI Integration", "Data Analytics", "Python", "SQL"],
-    logoSrc: fiscalAiLogo,
+    logoSrc: roiLogo,
     color: "#00A97F"
   };
 
   // Create final experiences array
-  // Always include 73 Strings and Fiscal.ai first on the primary page (and profile)
-  const experiences: Experience[] = [seventyThreeStringsExperience, fiscalAiExperience, ...baseExperiences];
+  // Always include 73 Strings and ROI first on the primary page (and profile)
+  const experiences: Experience[] = [seventyThreeStringsExperience, roiExperience, ...baseExperiences];
 
   const { ref: experiencesRef, visibleItems } = useStaggeredScrollAnimation(experiences.length, { 
     threshold: 0.05, 

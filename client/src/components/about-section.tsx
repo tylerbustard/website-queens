@@ -3,6 +3,7 @@ import { FaTrophy, FaStar, FaGraduationCap } from "react-icons/fa";
 import { useScrollAnimation, useStaggeredScrollAnimation } from "@/hooks/useScrollAnimation";
 import { useCounterAnimation } from "@/hooks/use-counter-animation";
 import universityLogo from "@assets/University_of_New_Brunswick_Logo.svg_1755912478863.png";
+import nccLogo from "@assets/northeast_christian_college_logo.png";
 import queensLogo from "@assets/queens_university_logo.png";
 import tdLogo from "@assets/Toronto-Dominion_Bank_logo.svg_1755913265896.png";
 import rbcLogo from "@assets/RBC-Logo_1755913716813.png";
@@ -83,16 +84,29 @@ export default function EducationSection({ variation = null }: EducationSectionP
     ]
   };
 
+  const nccEducation = {
+    institution: "Northeast Christian College",
+    location: "Fredericton, New Brunswick",
+    degree: "Theology Program",
+    major: "Major in Theology",
+    year: "2014-2015",
+    achievements: [
+      "Weekend ministry program exposure through church and community service, music, testimonies, preaching, and children's services",
+      "Campus and ministry exposure included weekend ministry, chapel service, student council, social committees, and annual benefit concert pathways",
+      "Combined theological study with practical ministry, leadership, communication, and applied skills training"
+    ]
+  };
+
   // Queen's University education for profile variation
   const queensEducation = {
-    institution: "Smith School of Business",
+    institution: "University of New Brunswick",  // replaced 2026-05-20
     location: "Toronto, Ontario",
     degree: "Queen's University",
-    major: "Master of Finance Candidate",
+    major: "Bachelor of Business Administration, Finance",  // replaced 2026-05-20
     year: "2025-2027",
     achievements: [
       "Case Competitions: CFA Research Challenge and Investment Banking Competition",
-      "Analyst – Financial sector – Queen's University Alternative Assets Fund (QUAAF)"
+      "Analyst and Portfolio Manager — UNB Student Investment Fund"
     ],
     leadership: [
       "Finance Club, Case Competition Union, and Investment-Banking Clubs",
@@ -100,8 +114,17 @@ export default function EducationSection({ variation = null }: EducationSectionP
     ]
   };
 
-  // Always show Queen's first, then UNB
-  const educationEntries = [queensEducation, unbEducation];
+  const nccCourseCategories = [
+    { title: "Biblical Studies", courses: ["Old Testament Survey", "New Testament Survey", "Bible Doctrine", "Bible Study Methods", "Bible Geography", "Hermeneutics"] },
+    { title: "Ministry & Evangelism", courses: ["Missiology", "Personal Evangelism", "Personal Ministry", "Preaching", "Prayer", "Evangelism", "Teacher Training", "Youth Worker Seminar"] },
+    { title: "Leadership & Community", courses: ["Leadership", "Social Science", "Men's Ministry", "Women's Ministry"] },
+    { title: "Communication & Music", courses: ["English", "Chorale", "Playing By Ear I", "Year Book"] },
+    { title: "Practical Skills", courses: ["Personal Finance", "Microsoft Excel", "Time Management", "Marketing & Promotion"] },
+    { title: "Language & Ethics", courses: ["Elementary Greek", "Christian Ethics"] }
+  ];
+
+  // Always show Queen's first, then UNB, then NCC
+  const educationEntries = [queensEducation, unbEducation, nccEducation];
 
   const highlights = [
     { title: "$47,500", subtitle: "Total Scholarships & Awards", iconType: "award" },
@@ -478,7 +501,7 @@ export default function EducationSection({ variation = null }: EducationSectionP
           {educationEntries.map((education, index) => (
           <div 
               key={index}
-              id={education.institution.includes('Smith') ? 'queens-education' : 'unb-education'}
+              id={education.institution.includes('Northeast') ? 'ncc-education' : education.institution.includes('Smith') ? 'queens-education' : 'unb-education'}
               ref={index === 0 ? heroCardAnimation.ref : undefined}
               className={`bg-gradient-to-br from-white/95 to-white/90 backdrop-blur-xl rounded-[24px] sm:rounded-[32px] p-8 sm:p-10 lg:p-12 border border-white/30 shadow-2xl hover:shadow-3xl transition-all duration-500 relative overflow-hidden group ${index === 0 ? 'scroll-scale-in scroll-stagger-1 visible' : 'scroll-scale-in scroll-stagger-2 visible'}`}
           >
@@ -487,7 +510,15 @@ export default function EducationSection({ variation = null }: EducationSectionP
             <div className="flex flex-col sm:flex-row items-center gap-6 sm:gap-8 text-center sm:text-left">
               {/* Logo on left */}
                   <div className="w-20 h-20 sm:w-24 sm:h-24 rounded-3xl shadow-2xl hover:shadow-3xl transition-all duration-500 hover:scale-110 flex-shrink-0 overflow-hidden">
-                    {education.institution.includes('Smith') ? (
+                    {education.institution.includes('Northeast') ? (
+                      <div className="w-full h-full bg-primary/10 rounded-3xl flex items-center justify-center">
+                        <img
+                          src={nccLogo}
+                          alt="Northeast Christian College Logo"
+                          className="w-16 h-8 sm:w-20 sm:h-10 object-contain"
+                        />
+                      </div>
+                    ) : education.institution.includes('Smith') ? (
                       <img 
                         src={queensLogo} 
                         alt="Queen's University Logo" 
@@ -552,7 +583,37 @@ export default function EducationSection({ variation = null }: EducationSectionP
           </div>
 
               {/* University-specific content based on institution */}
-              {education.institution.includes('Smith') ? (
+              {education.institution.includes('Northeast') ? (
+                <>
+                  <div className="grid grid-cols-1 md:grid-cols-3 gap-4 sm:gap-6">
+                    {education.achievements.map((item, itemIndex) => (
+                      <div key={itemIndex} className="rounded-[16px] sm:rounded-[20px] p-4 sm:p-6 border border-white/20 shadow-lg bg-white/80">
+                        <p className="text-muted-foreground text-sm leading-relaxed">{item}</p>
+                      </div>
+                    ))}
+                  </div>
+
+                  <div className="mt-12 sm:mt-16 lg:mt-20">
+                    <h4 className="text-xl sm:text-2xl font-bold text-foreground mb-6" style={{ fontFamily: '-apple-system, BlinkMacSystemFont, \"SF Pro Display\", sans-serif' }}>
+                      Coursework
+                    </h4>
+                    <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+                      {nccCourseCategories.map((category) => (
+                        <div key={category.title} className="rounded-[16px] sm:rounded-[20px] p-4 sm:p-6 border border-white/20 shadow-lg bg-white/80">
+                          <h5 className="font-semibold text-foreground mb-3 text-base sm:text-lg">{category.title}</h5>
+                          <div className="flex flex-wrap gap-2">
+                            {category.courses.map((course) => (
+                              <span key={course} className="px-2.5 py-1 rounded-lg bg-blue-50 text-blue-700 border border-blue-100 text-xs font-semibold">
+                                {course}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </>
+              ) : education.institution.includes('Smith') ? (
                 // Queen's University specific content
                 <>
                   {/* Queen's Achievement Categories */}
@@ -569,7 +630,7 @@ export default function EducationSection({ variation = null }: EducationSectionP
                       {
                         category: "Leadership",
                         items: [
-                          { title: "QUAAF Analyst (Financials)", desc: "Analyze financial sector opportunities with the Queen's University Alternative Assets Fund" },
+                          { title: "UNB Student Investment Fund Analyst", desc: "Analyze financial sector opportunities with the UNB Student Investment Fund" },
                           { title: "Clubs & Community", desc: "Participating in Finance Club, Case Competition Union and Investment‑Banking Clubs" }
                         ],
                         gradient: "from-gray-100/50 to-gray-200/50"
@@ -710,7 +771,7 @@ export default function EducationSection({ variation = null }: EducationSectionP
                             { title: "CFA Ethics Challenge", description: "Resolve complex ethics cases under CFA Standards and articulate rationale under time pressure." },
                             { title: "Van Berkom Small Cap Case Competition", description: "Analyze and pitch small‑capitalization equities—identify catalysts, risks and valuation, and defend the investment case to practitioners." },
                             { title: "National Investment Banking Competition (NIBC)", description: "Execute an investment banking case—build a transaction model, write an investment memorandum and present to senior bankers." },
-                            { title: "Queen's University Alternative Assets Fund (QUAAF)", description: "Cover the financials sector as an analyst; generate trade ideas, run weekly portfolio reviews and manage real capital in a student‑run fund." }
+                            { title: "UNB Student Investment Fund", description: "Cover the financials sector as an analyst; generate trade ideas, run weekly portfolio reviews and manage real capital in a student-run fund." }
                           ]
                         }
                       ].map((category, categoryIndex) => (

@@ -4,10 +4,10 @@ This is a full-stack web application featuring a personal portfolio website with
 
 ## Recent Changes (November 2025)
 - **Email Update**: Updated contact email from tbustard@unb.ca to tyler@tylerbustard.net across all pages
-- **73 Strings Employment**: Updated Key Achievements and Core Competencies for current role at 73 Strings
+- **73 Strings Employment**: Updated Key Achievements and Core Competencies for past 73 Strings role ending May 2026
   - Key Achievements: NAV monitoring, reconciliation workflows, and operations coordination
   - Core Competencies: Monitoring Controls, Reconciliation, NAV Validation, SQL, Excel
-- **Fiscal.ai Experience**: Added Equity Analyst position (2023-Nov 2025) under 73 Strings on both main and resume pages
+- **ROI Experience**: Added Equity Analyst position (2023-Nov 2025) under 73 Strings on both main and resume pages
   - Key Achievements: Analyzed financial statements (13% turnaround reduction), collaborated on AI-driven features (12% adoption boost)
   - Core Competencies: Financial Analysis, AI Integration, Data Analytics, Python, SQL
 - **Finance Certifications**: McGill University logo included in finance certifications section

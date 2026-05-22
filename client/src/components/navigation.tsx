@@ -364,8 +364,8 @@ export default function Navigation() {
                             >
                               <div className="space-y-1">
                                 <div className="text-sm font-bold text-gray-900 group-hover:text-blue-600 transition-colors duration-200">Queen's University</div>
-                                <div className="text-xs text-gray-600">Smith School of Business</div>
-                                <div className="text-xs text-gray-500">Master of Finance Candidate</div>
+                                <div className="text-xs text-gray-600">University of New Brunswick</div>
+                                <div className="text-xs text-gray-500">Bachelor of Business Administration, Finance</div>
                               </div>
                             </button>
                             
@@ -382,6 +382,22 @@ export default function Navigation() {
                                 <div className="text-sm font-bold text-gray-900 group-hover:text-blue-600 transition-colors duration-200">University of New Brunswick</div>
                                 <div className="text-xs text-gray-600">Bachelor of Business Administration</div>
                                 <div className="text-xs text-gray-500">Finance Major</div>
+                              </div>
+                            </button>
+
+                            {/* Northeast Christian College */}
+                            <button
+                              onClick={(e) => {
+                                e.stopPropagation();
+                                scrollToSection('#education-northeast-christian-college');
+                                setOpenDropdown(null);
+                              }}
+                              className="w-full text-left hover:bg-gray-100/50 rounded-lg p-3 transition-all duration-200 group"
+                            >
+                              <div className="space-y-1">
+                                <div className="text-sm font-bold text-gray-900 group-hover:text-blue-600 transition-colors duration-200">Northeast Christian College</div>
+                                <div className="text-xs text-gray-600">Theology Program</div>
+                                <div className="text-xs text-gray-500">Marketing</div>
                               </div>
                             </button>
                             
@@ -438,14 +454,14 @@ export default function Navigation() {
                             <button 
                               onClick={(e) => {
                                 e.stopPropagation();
-                                scrollToSection(getExperienceId('Fiscal.ai', 'Equity Analyst'));
+                                scrollToSection(getExperienceId('ROI', 'Equity Analyst'));
                                 setOpenDropdown(null);
                               }}
                               className="w-full text-left hover:bg-gray-100/50 rounded-lg p-3 transition-all duration-200 group"
                             >
                               <div className="space-y-1">
                                 <div className="text-sm font-bold text-gray-900 group-hover:text-blue-600 transition-colors duration-200">Equity Analyst</div>
-                                <div className="text-xs text-gray-600">Fiscal.ai</div>
+                                <div className="text-xs text-gray-600">ROI</div>
                               </div>
                             </button>
 
@@ -839,8 +855,8 @@ export default function Navigation() {
                           >
                             <div className="space-y-1">
                               <div className="text-sm font-bold text-gray-900 group-hover:text-blue-600 transition-colors duration-200">Queen's University</div>
-                              <div className="text-xs text-gray-600">Smith School of Business</div>
-                              <div className="text-xs text-gray-500">Master of Finance Candidate</div>
+                              <div className="text-xs text-gray-600">University of New Brunswick</div>
+                              <div className="text-xs text-gray-500">Bachelor of Business Administration, Finance</div>
                             </div>
                           </button>
                           
@@ -856,6 +872,21 @@ export default function Navigation() {
                               <div className="text-sm font-bold text-gray-900 group-hover:text-blue-600 transition-colors duration-200">University of New Brunswick</div>
                               <div className="text-xs text-gray-600">Bachelor of Business Administration</div>
                               <div className="text-xs text-gray-500">Finance Major</div>
+                            </div>
+                          </button>
+
+                          {/* Northeast Christian College */}
+                          <button
+                            onClick={() => {
+                              scrollToSection('#ncc-education');
+                              setOpenDropdown(null);
+                            }}
+                            className="w-full text-left hover:bg-gray-100/50 rounded-lg p-3 transition-all duration-200 group"
+                          >
+                              <div className="space-y-1">
+                              <div className="text-sm font-bold text-gray-900 group-hover:text-blue-600 transition-colors duration-200">Northeast Christian College</div>
+                              <div className="text-xs text-gray-600">Theology Program</div>
+                              <div className="text-xs text-gray-500">Marketing</div>
                             </div>
                           </button>
                           

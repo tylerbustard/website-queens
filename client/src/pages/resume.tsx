@@ -11,6 +11,7 @@ import { slugify } from "@/lib/utils";
 // Import logos from assets
 import profileImage from "@assets/Untitled design (1)_1755896187722.png";
 import unbLogo from "@assets/University_of_New_Brunswick_Logo.svg_1755912478863.png";
+import nccLogo from "@assets/northeast_christian_college_logo.png";
 import bmoLogo from "@assets/BMO_Logo.svg_1755913265896.png";
 import tdLogo from "@assets/Toronto-Dominion_Bank_logo.svg_1755913265896.png";
 import rbcLogo from "@assets/RBC-Logo_1755913716813.png";
@@ -27,7 +28,7 @@ import courseraLogo from "@assets/Coursera_1755937682843.png";
 import mcgillLogo from "@assets/mcgill_university_logo.png";
 import queensLogo from "@assets/queens_university_logo.png";
 import seventyThreeStringsLogo from "@assets/73_strings_logo.webp";
-import fiscalAiLogo from "@assets/image_1762287154415.png";
+import roiLogo from "@assets/image_1762287154415.png";
 
 export default function Resume() {
   const [location] = useLocation();
@@ -149,44 +150,7 @@ export default function Resume() {
               <h3 className="text-base font-bold text-gray-900 mb-4 uppercase tracking-wide" style={{ letterSpacing: '0.05em' }}>Education</h3>
               
               <div className="space-y-4">
-                {/* Queen's University */}
-                  <div id="education-queens-university" className="bg-white rounded-xl border border-gray-200 p-3 shadow-sm">
-                    <div className="flex gap-3 items-center">
-                      <div className="flex-shrink-0">
-                        <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center border border-blue-200">
-                          <img src={queensLogo} alt="Queen's University" className="w-7 h-7 object-contain" />
-                        </div>
-                      </div>
-                      <div className="flex-1">
-                        <div className="flex justify-between items-start">
-                          <div>
-                            <h4 className="text-sm font-bold text-gray-900">Master of Finance Candidate</h4>
-                            <p className="text-sm text-gray-900 font-semibold">Smith School of Business</p>
-                            <p className="text-sm text-blue-600 font-semibold">Queen's University</p>
-                          </div>
-                          <span className="inline-flex items-center rounded-full bg-gray-100 text-gray-600 text-xs font-medium px-2.5 py-1 shadow-sm">2025-2027</span>
-                        </div>
-                      </div>
-                    </div>
-                    <ul className="mt-3 space-y-2 pl-16">
-                      <li className="text-sm text-gray-700 flex items-start">
-                        <span className="text-blue-500 mr-2">•</span>
-                        <span>Case Competitions: CFA Research Challenge and Investment Banking Competition</span>
-                      </li>
-                      <li className="text-sm text-gray-700 flex items-start">
-                        <span className="text-blue-500 mr-2">•</span>
-                        <span>Analyst - Financial sector - Queen's University Alternative Assets Fund (QUAAF)</span>
-                      </li>
-                      <li className="text-sm text-gray-700 flex items-start">
-                        <span className="text-blue-500 mr-2">•</span>
-                        <span>Member of Finance Club, Case Competition Union and Investment-Banking Clubs</span>
-                      </li>
-                      <li className="text-sm text-gray-700 flex items-start">
-                        <span className="text-blue-500 mr-2">•</span>
-                        <span>Dean's Entrance Scholarship Award, Total $5,000</span>
-                      </li>
-                    </ul>
-                  </div>
+                {/* Queen's M.Fin entry removed 2026-05-20: not an active credential. */}
 
                 {/* University of New Brunswick */}
                 <div id="education-unb" className="bg-white rounded-xl border border-gray-200 p-3 shadow-sm">
@@ -222,6 +186,37 @@ export default function Resume() {
                     </li>
                   </ul>
                 </div>
+
+                {/* Northeast Christian College */}
+                <div id="education-northeast-christian-college" className="bg-white rounded-xl border border-gray-200 p-3 shadow-sm">
+                  <div className="flex gap-3 items-center">
+                    <div className="flex-shrink-0">
+                      <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center border border-blue-200">
+                        <img src={nccLogo} alt="Northeast Christian College" className="w-10 h-auto object-contain" style={{ filter: 'grayscale(1) invert(1)' }} />
+                      </div>
+                    </div>
+                    <div className="flex-1">
+                      <div className="flex justify-between items-start gap-3">
+                        <div>
+                          <h4 className="text-sm font-bold text-gray-900">Theology Program</h4>
+                          <p className="text-sm text-blue-600 font-semibold">Northeast Christian College</p>
+                          <p className="text-sm text-gray-600">Fredericton, NB</p>
+                        </div>
+                        <span className="inline-flex items-center rounded-full bg-gray-100 text-gray-600 text-xs font-medium px-2.5 py-1 shadow-sm">2014-2015</span>
+                      </div>
+                    </div>
+                  </div>
+                  <ul className="mt-3 space-y-2 pl-16">
+                    <li className="text-sm text-gray-700 flex items-start">
+                      <span className="text-blue-500 mr-2">•</span>
+                      <span>Major in Theology with coursework across Bible, ministry, leadership, communication, ethics, and practical skills</span>
+                    </li>
+                    <li className="text-sm text-gray-700 flex items-start">
+                      <span className="text-blue-500 mr-2">•</span>
+                      <span>Campus and ministry exposure included weekend ministry, chapel service, student council, social committees, and annual benefit concert pathways</span>
+                    </li>
+                  </ul>
+                </div>
               </div>
             </section>
 
@@ -230,7 +225,7 @@ export default function Resume() {
               <h3 className="text-base font-bold text-gray-900 mb-4 uppercase tracking-wide" style={{ letterSpacing: '0.05em' }}>Professional Experience</h3>
               
               <div className="space-y-4">
-                {/* Current Role - 73 Strings */}
+                {/* 73 Strings role ended May 2026 */}
                 <div
                   id={`experience-${slugify('73 Strings')}-${slugify('Senior Associate, Portfolio Monitoring')}`}
                   className="bg-white rounded-xl border border-gray-200 p-3 shadow-sm"
@@ -248,7 +243,7 @@ export default function Resume() {
                           <p className="text-sm text-blue-600 font-semibold">73 Strings</p>
                           <p className="text-sm text-gray-600">Toronto, ON</p>
                         </div>
-                        <span className="inline-flex items-center rounded-full bg-gray-100 text-gray-600 text-xs font-medium px-2.5 py-1 shadow-sm">2025-Present</span>
+                        <span className="inline-flex items-center rounded-full bg-gray-100 text-gray-600 text-xs font-medium px-2.5 py-1 shadow-sm">Jan 2025 - May 2026</span>
                       </div>
                     </div>
                   </div>
@@ -271,22 +266,22 @@ export default function Resume() {
                   </div>
                 </div>
 
-                {/* Fiscal.ai */}
+                {/* ROI */}
                 <div
-                  id={`experience-${slugify('Fiscal.ai')}-${slugify('Equity Analyst')}`}
+                  id={`experience-${slugify('ROI')}-${slugify('Equity Analyst')}`}
                   className="bg-white rounded-xl border border-gray-200 p-3 shadow-sm"
                 >
                   <div className="flex gap-3 items-center">
                     <div className="flex-shrink-0">
                       <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center border border-gray-200">
-                        <img src={fiscalAiLogo} alt="Fiscal.ai" className="w-7 h-7 object-contain" />
+                        <img src={roiLogo} alt="ROI" className="w-7 h-7 object-contain" />
                       </div>
                     </div>
                     <div className="flex-1">
                       <div className="flex justify-between items-start">
                         <div>
                           <h4 className="text-sm font-bold text-gray-900">Equity Analyst</h4>
-                          <p className="text-sm text-blue-600 font-semibold">Fiscal.ai</p>
+                          <p className="text-sm text-blue-600 font-semibold">ROI</p>
                           <p className="text-sm text-gray-600">Toronto, ON</p>
                         </div>
                         <span className="inline-flex items-center rounded-full bg-gray-100 text-gray-600 text-xs font-medium px-2.5 py-1 shadow-sm">2023-2025</span>
