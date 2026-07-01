@@ -150,7 +150,44 @@ export default function Resume() {
               <h3 className="text-base font-bold text-gray-900 mb-4 uppercase tracking-wide" style={{ letterSpacing: '0.05em' }}>Education</h3>
               
               <div className="space-y-4">
-                {/* Queen's M.Fin entry removed 2026-05-20: not an active credential. */}
+                {/* Queen's University */}
+                <div id="education-queens-university" className="bg-white rounded-xl border border-gray-200 p-3 shadow-sm">
+                  <div className="flex gap-3 items-center">
+                    <div className="flex-shrink-0">
+                      <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center border border-blue-200">
+                        <img src={queensLogo} alt="Queen's University" className="w-7 h-7 object-contain" />
+                      </div>
+                    </div>
+                    <div className="flex-1">
+                      <div className="flex justify-between items-start">
+                        <div>
+                          <h4 className="text-sm font-bold text-gray-900">Master of Finance Candidate</h4>
+                          <p className="text-sm text-gray-900 font-semibold">Smith School of Business</p>
+                          <p className="text-sm text-blue-600 font-semibold">Queen's University</p>
+                        </div>
+                        <span className="inline-flex items-center rounded-full bg-gray-100 text-gray-600 text-xs font-medium px-2.5 py-1 shadow-sm">2025-2027</span>
+                      </div>
+                    </div>
+                  </div>
+                  <ul className="mt-3 space-y-2 pl-16">
+                    <li className="text-sm text-gray-700 flex items-start">
+                      <span className="text-blue-500 mr-2">•</span>
+                      <span>Case Competitions: CFA Research Challenge and Investment Banking Competition</span>
+                    </li>
+                    <li className="text-sm text-gray-700 flex items-start">
+                      <span className="text-blue-500 mr-2">•</span>
+                      <span>Analyst - Financial sector - Queen's University Alternative Assets Fund (QUAAF)</span>
+                    </li>
+                    <li className="text-sm text-gray-700 flex items-start">
+                      <span className="text-blue-500 mr-2">•</span>
+                      <span>Member of Finance Club, Case Competition Union and Investment-Banking Clubs</span>
+                    </li>
+                    <li className="text-sm text-gray-700 flex items-start">
+                      <span className="text-blue-500 mr-2">•</span>
+                      <span>Dean's Entrance Scholarship Award, Total $5,000</span>
+                    </li>
+                  </ul>
+                </div>
 
                 {/* University of New Brunswick */}
                 <div id="education-unb" className="bg-white rounded-xl border border-gray-200 p-3 shadow-sm">

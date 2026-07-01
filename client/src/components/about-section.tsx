@@ -99,14 +99,14 @@ export default function EducationSection({ variation = null }: EducationSectionP
 
   // Queen's University education for profile variation
   const queensEducation = {
-    institution: "University of New Brunswick",  // replaced 2026-05-20
+    institution: "Smith School of Business",
     location: "Toronto, Ontario",
     degree: "Queen's University",
-    major: "Bachelor of Business Administration, Finance",  // replaced 2026-05-20
+    major: "Master of Finance Candidate",
     year: "2025-2027",
     achievements: [
       "Case Competitions: CFA Research Challenge and Investment Banking Competition",
-      "Analyst and Portfolio Manager — UNB Student Investment Fund"
+      "Analyst – Financial sector – Queen's University Alternative Assets Fund (QUAAF)"
     ],
     leadership: [
       "Finance Club, Case Competition Union, and Investment-Banking Clubs",
@@ -127,7 +127,7 @@ export default function EducationSection({ variation = null }: EducationSectionP
   const educationEntries = [queensEducation, unbEducation, nccEducation];
 
   const highlights = [
-    { title: "$47,500", subtitle: "Total Scholarships & Awards", iconType: "award" },
+    { title: "$52,500", subtitle: "Total Scholarships & Awards", iconType: "award" },
     { title: "Student Ambassador", subtitle: "RBC Student Ambassador of the Month - February 2020", iconType: "image", logoSrc: rbcLogo }
   ];
 
@@ -158,7 +158,7 @@ export default function EducationSection({ variation = null }: EducationSectionP
     { 
       category: "Achievements", 
       items: [
-        { title: "5 Academic Awards", desc: "$47,500 in scholarships and alumni awards for merit and leadership" },
+        { title: "6 Academic Awards", desc: "$52,500 in scholarships and alumni awards for merit and leadership" },
         { title: "Accredited Co-op Program", desc: "Professional work experience integrated with academic curriculum" }
       ],
       gradient: "from-gray-100/50 to-gray-200/50"
