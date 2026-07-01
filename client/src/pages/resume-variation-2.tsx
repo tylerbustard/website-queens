@@ -114,7 +114,7 @@ export default function ResumeVariation2({ variation = null }: ResumeVariation2P
                     </div>
                     <div className="flex items-center gap-1.5">
                       <Globe className="w-3.5 h-3.5 text-blue-500" />
-                      <span>tylerbustard.ca</span>
+                      <span>tylerbustard.net</span>
                     </div>
                     <div className="flex items-center gap-1.5">
                       <MapPin className="w-3.5 h-3.5 text-blue-500" />
